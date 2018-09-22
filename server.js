@@ -1,4 +1,3 @@
-import config from "./config";
 var express = require("express");
 var sassMiddleware = require("node-sass-middleware");
 var path = require("path");
@@ -19,6 +18,6 @@ app.get("/", (req, res) => {
 
 app.use(express.static("public"));
 
-app.listen(process.env.PORT || config.port, () =>
+app.listen(process.env.PORT || 80, () =>
   console.log("Fame Booster Web site started listening in port 80")
 );
