@@ -19,6 +19,6 @@ app.get("/", (req, res) => {
 
 app.use(express.static("public"));
 
-app.listen(config.port, () =>
+app.listen(process.env.PORT || config.port, () =>
   console.log("Fame Booster Web site started listening in port 80")
 );
