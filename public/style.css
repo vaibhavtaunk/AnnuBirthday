@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box; }
+
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+  min-width: 360px; }
+
+span {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("/images/cake background.jpg");
+  background-position: inherit;
+  background-repeat: repeat;
+  background-size: 100%; }
+
+.body-content {
+  width: 100%; }
+
+@media only screen and (max-width: 480px) {
+  .end-left {
+    margin-left: -55px; } }
+
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .end-left {
+    margin-left: -75px; } }
+
+@media only screen and (min-width: 961px) and (max-width: 1851px) {
+  .end-left {
+    margin-left: -150px; } }
+
+@media only screen and (min-width: 1851px) {
+  .end-left {
+    margin-left: -235px; } }
+
+@media only screen and (max-width: 480px) {
+  .end-right {
+    margin-right: -20.5px;
+    margin-left: -75px; } }
+
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .end-right {
+    margin-right: -80.5px;
+    margin-left: -75px; } }
+
+@media only screen and (min-width: 961px) and (max-width: 1851px) {
+  .end-right {
+    margin-right: -80.5px; } }
+
+@media only screen and (min-width: 1851px) {
+  .end-right {
+    margin-right: -117.5px; } }
+
+.outline {
+  position: absolute;
+  top: 20px; }
+
+.outline {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: "Happy Monkey", cursive; }
+  @media only screen and (max-width: 480px) {
+    .outline {
+      font-size: 40px; } }
+  @media only screen and (min-width: 481px) and (max-width: 960px) {
+    .outline {
+      font-size: 50px; } }
+  @media only screen and (min-width: 961px) and (max-width: 1851px) {
+    .outline {
+      font-size: 80px; } }
+  @media only screen and (min-width: 1851px) {
+    .outline {
+      font-size: 120px; } }
+
+.orbs {
+  font-family: "Happy Monkey", sans-serif;
+  display: block;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: red; }
+  @media only screen and (max-width: 480px) {
+    .orbs {
+      font-size: 80px; } }
+  @media only screen and (min-width: 481px) and (max-width: 960px) {
+    .orbs {
+      font-size: 100px; } }
+  @media only screen and (min-width: 961px) and (max-width: 1851px) {
+    .orbs {
+      font-size: 115px; } }
+  @media only screen and (min-width: 1851px) {
+    .orbs {
+      font-size: 136px; } }
+  .orbs span {
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    text-shadow: 0 0 20px red, 1px 1px 20px red, 2px 2px 20px red, -1px -1px 20px red, -2px -2px 20px red;
+    position: absolute;
+    left: 50%;
+    margin: 50px; }
+    @media only screen and (max-width: 480px) {
+      .orbs span:first-child {
+        margin-left: -140px; }
+      .orbs span:not(:first-child) {
+        margin-left: -35px; } }
+    @media only screen and (min-width: 481px) and (max-width: 960px) {
+      .orbs span:first-child {
+        margin-left: -160px; }
+      .orbs span:not(:first-child) {
+        margin-left: -35px; } }
+    @media only screen and (min-width: 961px) and (max-width: 1851px) {
+      .orbs span:first-child {
+        margin-left: -140px; }
+      .orbs span:not(:first-child) {
+        margin-left: -35px; } }
+    @media only screen and (min-width: 1851px) {
+      .orbs span:first-child {
+        margin-left: -210px; }
+      .orbs span:not(:first-child) {
+        margin-left: -35px; } }
+
+.glow {
+  opacity: 0;
+  font-family: "Concert One", cursive;
+  color: black;
+  text-align: center;
+  display: block;
+  -webkit-animation: color-change 1s infinite;
+  -moz-animation: color-change 1s infinite;
+  -o-animation: color-change 1s infinite;
+  -ms-animation: color-change 1s infinite;
+  animation: color-change 1s infinite; }
+  @media only screen and (max-width: 480px) {
+    .glow {
+      font-size: 30px;
+      margin-top: 40px; } }
+  @media only screen and (min-width: 481px) and (max-width: 960px) {
+    .glow {
+      font-size: 50px;
+      top: 350px; } }
+  @media only screen and (min-width: 961px) and (max-width: 1851px) {
+    .glow {
+      font-size: 50px;
+      top: 350px; } }
+  @media only screen and (min-width: 1851px) {
+    .glow {
+      font-size: 70px;
+      top: 350px; } }
+
+@-webkit-keyframes color-change {
+  0% {
+    color: #9400d3; }
+  20% {
+    color: #0000ff; }
+  40% {
+    color: #00ff00; }
+  60% {
+    color: #ffff00; }
+  80% {
+    color: #ff7f00; }
+  100% {
+    color: #ff0000; } }
+
+@-moz-keyframes color-change {
+  0% {
+    color: #9400d3; }
+  20% {
+    color: #0000ff; }
+  40% {
+    color: #00ff00; }
+  60% {
+    color: #ffff00; }
+  80% {
+    color: #ff7f00; }
+  100% {
+    color: #ff0000; } }
+
+@-ms-keyframes color-change {
+  .glow 0% {
+    color: #9400d3; }
+  .glow 20% {
+    color: #0000ff; }
+  .glow 40% {
+    color: #00ff00; }
+  .glow 60% {
+    color: #ffff00; }
+  .glow 80% {
+    color: #ff7f00; }
+  .glow 100% {
+    color: #ff0000; } }
+
+@-o-keyframes color-change {
+  0% {
+    color: #9400d3; }
+  20% {
+    color: #0000ff; }
+  40% {
+    color: #00ff00; }
+  60% {
+    color: #ffff00; }
+  80% {
+    color: #ff7f00; }
+  100% {
+    color: #ff0000; } }
+
+@keyframes color-change {
+  0% {
+    color: #9400d3; }
+  20% {
+    color: #0000ff; }
+  40% {
+    color: #00ff00; }
+  60% {
+    color: #ffff00; }
+  80% {
+    color: #ff7f00; }
+  100% {
+    color: #ff0000; } }
+
+.card-layout {
+  text-align: center;
+  opacity: 0; }
+
+.w3-card {
+  background-color: white;
+  display: inline-block;
+  overflow: hidden;
+  margin: 15px;
+  height: 300px; }
+  @media only screen and (max-width: 480px) {
+    .w3-card {
+      width: 80%; } }
+  @media only screen and (min-width: 481px) and (max-width: 960px) {
+    .w3-card {
+      width: 60%; } }
+  @media only screen and (min-width: 961px) and (max-width: 1851px) {
+    .w3-card {
+      width: 40%; } }
+  @media only screen and (min-width: 1851px) {
+    .w3-card {
+      width: 25%; } }
+
+.w3-container > p {
+  font-family: "Concert One", cursive;
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px; }

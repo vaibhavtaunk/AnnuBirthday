@@ -1,0 +1,316 @@
+* {
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+  min-width: 360px;
+}
+
+span {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("/images/cake background.jpg");
+  background-position: inherit;
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+.body-content {
+  width: 100%;
+}
+
+.end-left {
+  @media only screen and (max-width: 480px) {
+    margin-left: -55px;
+  }
+  @media only screen and (min-width: 481px) and (max-width: 960px) {
+    margin-left: -75px;
+  }
+  @media only screen and (min-width: 961px) and (max-width: 1851px) {
+    margin-left: -150px;
+  }
+  @media only screen and (min-width: 1851px) {
+    margin-left: -235px;
+  }
+}
+
+.end-right {
+  @media only screen and (max-width: 480px) {
+    margin-right: -20.5px;
+    margin-left: -75px;
+  }
+  @media only screen and (min-width: 481px) and (max-width: 960px) {
+    margin-right: -80.5px;
+    margin-left: -75px;
+  }
+  @media only screen and (min-width: 961px) and (max-width: 1851px) {
+    margin-right: -80.5px;
+  }
+  @media only screen and (min-width: 1851px) {
+    margin-right: -117.5px;
+  }
+}
+
+.outline {
+  position: absolute;
+  top: 20px;
+}
+
+.outline {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: "Happy Monkey", cursive;
+
+  @media only screen and (max-width: 480px) {
+    font-size: 40px;
+  }
+  @media only screen and (min-width: 481px) and (max-width: 960px) {
+    font-size: 50px;
+  }
+  @media only screen and (min-width: 961px) and (max-width: 1851px) {
+    font-size: 80px;
+  }
+  @media only screen and (min-width: 1851px) {
+    font-size: 120px;
+  }
+}
+
+.orbs {
+  font-family: "Happy Monkey", sans-serif;
+  display: block;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: red;
+
+  @media only screen and (max-width: 480px) {
+    font-size: 80px;
+  }
+  @media only screen and (min-width: 481px) and (max-width: 960px) {
+    font-size: 100px;
+  }
+  @media only screen and (min-width: 961px) and (max-width: 1851px) {
+    font-size: 115px;
+  }
+  @media only screen and (min-width: 1851px) {
+    font-size: 136px;
+  }
+
+  span {
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    text-shadow: 0 0 20px red, 1px 1px 20px red, 2px 2px 20px red,
+      -1px -1px 20px red, -2px -2px 20px red;
+    position: absolute;
+    left: 50%;
+    margin: 50px;
+
+    @media only screen and (max-width: 480px) {
+      &:first-child {
+        margin-left: -140px;
+      }
+      &:not(:first-child) {
+        margin-left: -35px;
+      }
+    }
+    @media only screen and (min-width: 481px) and (max-width: 960px) {
+      &:first-child {
+        margin-left: -160px;
+      }
+      &:not(:first-child) {
+        margin-left: -35px;
+      }
+    }
+    @media only screen and (min-width: 961px) and (max-width: 1851px) {
+      &:first-child {
+        margin-left: -140px;
+      }
+      &:not(:first-child) {
+        margin-left: -35px;
+      }
+    }
+    @media only screen and (min-width: 1851px) {
+      &:first-child {
+        margin-left: -210px;
+      }
+      &:not(:first-child) {
+        margin-left: -35px;
+      }
+    }
+  }
+}
+
+.glow {
+  opacity: 0;
+  font-family: "Concert One", cursive;
+  color: black;
+  text-align: center;
+  display: block;
+
+  @media only screen and (max-width: 480px) {
+    font-size: 30px;
+    margin-top: 40px;
+  }
+  @media only screen and (min-width: 481px) and (max-width: 960px) {
+    font-size: 50px;
+    top: 350px;
+  }
+  @media only screen and (min-width: 961px) and (max-width: 1851px) {
+    font-size: 50px;
+    top: 350px;
+  }
+  @media only screen and (min-width: 1851px) {
+    font-size: 70px;
+    top: 350px;
+  }
+
+  -webkit-animation: color-change 1s infinite;
+  -moz-animation: color-change 1s infinite;
+  -o-animation: color-change 1s infinite;
+  -ms-animation: color-change 1s infinite;
+  animation: color-change 1s infinite;
+
+  @-webkit-keyframes color-change {
+    0% {
+      color: #9400d3;
+    }
+    20% {
+      color: #0000ff;
+    }
+    40% {
+      color: #00ff00;
+    }
+    60% {
+      color: #ffff00;
+    }
+    80% {
+      color: #ff7f00;
+    }
+    100% {
+      color: #ff0000;
+    }
+  }
+  @-moz-keyframes color-change {
+    0% {
+      color: #9400d3;
+    }
+    20% {
+      color: #0000ff;
+    }
+    40% {
+      color: #00ff00;
+    }
+    60% {
+      color: #ffff00;
+    }
+    80% {
+      color: #ff7f00;
+    }
+    100% {
+      color: #ff0000;
+    }
+  }
+  @-ms-keyframes color-change {
+    0% {
+      color: #9400d3;
+    }
+    20% {
+      color: #0000ff;
+    }
+    40% {
+      color: #00ff00;
+    }
+    60% {
+      color: #ffff00;
+    }
+    80% {
+      color: #ff7f00;
+    }
+    100% {
+      color: #ff0000;
+    }
+  }
+  @-o-keyframes color-change {
+    0% {
+      color: #9400d3;
+    }
+    20% {
+      color: #0000ff;
+    }
+    40% {
+      color: #00ff00;
+    }
+    60% {
+      color: #ffff00;
+    }
+    80% {
+      color: #ff7f00;
+    }
+    100% {
+      color: #ff0000;
+    }
+  }
+  @keyframes color-change {
+    0% {
+      color: #9400d3;
+    }
+    20% {
+      color: #0000ff;
+    }
+    40% {
+      color: #00ff00;
+    }
+    60% {
+      color: #ffff00;
+    }
+    80% {
+      color: #ff7f00;
+    }
+    100% {
+      color: #ff0000;
+    }
+  }
+}
+
+.card-layout {
+  text-align: center;
+  opacity: 0;
+}
+
+.w3-card {
+  background-color: white;
+  display: inline-block;
+  overflow: hidden;
+  margin: 15px;
+  height: 300px;
+
+  @media only screen and (max-width: 480px) {
+    width: 80%;
+  }
+  @media only screen and (min-width: 481px) and (max-width: 960px) {
+    width: 60%;
+  }
+  @media only screen and (min-width: 961px) and (max-width: 1851px) {
+    width: 40%;
+  }
+  @media only screen and (min-width: 1851px) {
+    width: 25%;
+  }
+}
+
+.w3-container > p {
+  font-family: "Concert One", cursive;
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+}
