@@ -11,7 +11,7 @@ span {
   padding: 0; }
 
 body {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("/images/cake background.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("/images/cake_background.jpg");
   background-position: inherit;
   background-repeat: repeat;
   background-size: 100%; }
