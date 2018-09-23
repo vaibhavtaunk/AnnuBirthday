@@ -16,6 +16,14 @@ app.get("/", (req, res) => {
   res.render("index", {});
 });
 
+app.get("/photos", (req, res) => {
+  res.render("photos", {});
+});
+
+app.get("/quotes", (req, res) => {
+  res.render("quotes", {});
+});
+
 app.use(express.static("public"));
 
 app.listen(process.env.PORT || 80, () =>

@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("/images/cake_background.jpg");
+  background-position: inherit;
+  background-repeat: repeat;
+  background-size: 100%;
+  text-align: center;
+}
+
+.w3-card {
+  background-color: white;
+  overflow: hidden;
+  margin: 15px;
+  width: 70%;
+  display: inline-block;
+}
+
+.w3-container > p {
+  font-family: "Concert One", cursive;
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+}

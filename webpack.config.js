@@ -1,6 +1,8 @@
 module.exports = {
   entry: {
-    index: "./src/index.js"
+    index: "./src/index.js",
+    photos: "./src/photos.js",
+    quotes: "./src/quotes.js"
   },
   output: {
     path: __dirname + "/public",
