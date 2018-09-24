@@ -89,6 +89,41 @@ class Body extends React.Component {
           <div className="w3-card w3-round-xxlarge">
             <div className="w3-container">
               <video width="320" height="240" controls>
+                <source src="/videos/Sasu Mom.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <footer className="w3-container w3-blue">
+              <h5>by Sasu Mom</h5>
+            </footer>
+          </div>
+          <div className="w3-card w3-round-xxlarge">
+            <div className="w3-container">
+              <img src="/images/Bunny Dad.jpg" width="300px" />
+              <audio controls>
+                <source src="/videos/Bunny Dad.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+            <footer className="w3-container w3-blue">
+              <h5>by Bunny Dad</h5>
+            </footer>
+          </div>
+          <div className="w3-card w3-round-xxlarge">
+            <div className="w3-container">
+              <img src="/images/Bunny Dad.jpg" width="300px" />
+              <audio controls>
+                <source src="/videos/Bunny Dad2.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+            <footer className="w3-container w3-blue">
+              <h5>by Bunny Dad</h5>
+            </footer>
+          </div>
+          <div className="w3-card w3-round-xxlarge">
+            <div className="w3-container">
+              <video width="320" height="240" controls>
                 <source src="/videos/Dii and Doll.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
@@ -333,6 +368,17 @@ class Body extends React.Component {
             </div>
             <footer className="w3-container w3-blue">
               <h5>by Anusha</h5>
+            </footer>
+          </div>
+          <div className="w3-card w3-round-xxlarge">
+            <div className="w3-container">
+              <video width="320" height="240" controls>
+                <source src="/videos/Nishant.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <footer className="w3-container w3-blue">
+              <h5>by Nishant</h5>
             </footer>
           </div>
         </div>
