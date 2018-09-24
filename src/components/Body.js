@@ -35,11 +35,66 @@ class Body extends React.Component {
             <div className="w3-container">
               <p>
                 Remember your last birthday? Remember that you said that it was
-                best birthday of your life? That will change tonight…just wait!
+                best birthday of your life? That will change tonight… just wait!
               </p>
             </div>
             <footer className="w3-container w3-blue">
               <h5>by Bunny</h5>
+            </footer>
+          </div>
+          <div className="w3-card w3-round-xxlarge">
+            <div className="w3-container">
+              <video width="320" height="240" controls>
+                <source src="/videos/Mom.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <footer className="w3-container w3-blue">
+              <h5>by Mom</h5>
+            </footer>
+          </div>
+          <div className="w3-card w3-round-xxlarge">
+            <div className="w3-container">
+              <video width="320" height="240" controls>
+                <source src="/videos/Mom2.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <footer className="w3-container w3-blue">
+              <h5>by Mom</h5>
+            </footer>
+          </div>
+          <div className="w3-card w3-round-xxlarge">
+            <div className="w3-container">
+              <video width="320" height="240" controls>
+                <source src="/videos/Mom Dad.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <footer className="w3-container w3-blue">
+              <h5>by Mom & Dad</h5>
+            </footer>
+          </div>
+          <div className="w3-card w3-round-xxlarge">
+            <div className="w3-container">
+              <video width="320" height="240" controls>
+                <source src="/videos/Papa.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <footer className="w3-container w3-blue">
+              <h5>by Dad</h5>
+            </footer>
+          </div>
+          <div className="w3-card w3-round-xxlarge">
+            <div className="w3-container">
+              <video width="320" height="240" controls>
+                <source src="/videos/Dii and Doll.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <footer className="w3-container w3-blue">
+              <h5>by Dii & Doll</h5>
             </footer>
           </div>
           <div className="w3-card w3-round-xxlarge">
@@ -211,35 +266,10 @@ class Body extends React.Component {
           </div>
           <div className="w3-card w3-round-xxlarge">
             <div className="w3-container">
-              <p>
-                A wish for you on your birthday, whatever you ask may you
-                receive, whatever you seek may you find, whatever you wish may
-                it be fulfilled on your birthday and always. Happy birthday!
-              </p>
-            </div>
-            <footer className="w3-container w3-blue">
-              <h5>by Satyam</h5>
-            </footer>
-          </div>
-          <div className="w3-card w3-round-xxlarge">
-            <div className="w3-container">
-              <p>
-                A wish for you on your birthday, whatever you ask may you
-                receive, whatever you seek may you find, whatever you wish may
-                it be fulfilled on your birthday and always. Happy birthday!
-              </p>
-            </div>
-            <footer className="w3-container w3-blue">
-              <h5>by Shubhi</h5>
-            </footer>
-          </div>
-          <div className="w3-card w3-round-xxlarge">
-            <div className="w3-container">
-              <p>
-                A wish for you on your birthday, whatever you ask may you
-                receive, whatever you seek may you find, whatever you wish may
-                it be fulfilled on your birthday and always. Happy birthday!
-              </p>
+              <video width="320" height="240" controls>
+                <source src="/videos/Akhil.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
             <footer className="w3-container w3-blue">
               <h5>by Akhil</h5>
@@ -247,35 +277,21 @@ class Body extends React.Component {
           </div>
           <div className="w3-card w3-round-xxlarge">
             <div className="w3-container">
-              <p>
-                A wish for you on your birthday, whatever you ask may you
-                receive, whatever you seek may you find, whatever you wish may
-                it be fulfilled on your birthday and always. Happy birthday!
-              </p>
+              <video width="320" height="240" controls>
+                <source src="/videos/Deepak.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
             <footer className="w3-container w3-blue">
-              <h5>by Shanu</h5>
+              <h5>by Deepak</h5>
             </footer>
           </div>
           <div className="w3-card w3-round-xxlarge">
             <div className="w3-container">
-              <p>
-                A wish for you on your birthday, whatever you ask may you
-                receive, whatever you seek may you find, whatever you wish may
-                it be fulfilled on your birthday and always. Happy birthday!
-              </p>
-            </div>
-            <footer className="w3-container w3-blue">
-              <h5>by Vipul</h5>
-            </footer>
-          </div>
-          <div className="w3-card w3-round-xxlarge">
-            <div className="w3-container">
-              <p>
-                A wish for you on your birthday, whatever you ask may you
-                receive, whatever you seek may you find, whatever you wish may
-                it be fulfilled on your birthday and always. Happy birthday!
-              </p>
+              <video width="320" height="240" controls>
+                <source src="/videos/Sushant.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
             <footer className="w3-container w3-blue">
               <h5>by Sushant</h5>
@@ -283,74 +299,40 @@ class Body extends React.Component {
           </div>
           <div className="w3-card w3-round-xxlarge">
             <div className="w3-container">
-              <p>
-                A wish for you on your birthday, whatever you ask may you
-                receive, whatever you seek may you find, whatever you wish may
-                it be fulfilled on your birthday and always. Happy birthday!
-              </p>
+              <video width="320" height="240" controls>
+                <source src="/videos/Shubhanshu.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
             <footer className="w3-container w3-blue">
-              <h5>by Ramanujam</h5>
+              <h5>by Shubhanshu</h5>
+            </footer>
+          </div>
+          <div className="w3-card w3-round-xxlarge">
+            <div className="w3-container">
+              <video width="320" height="240" controls>
+                <source src="/videos/Bramhdev.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <footer className="w3-container w3-blue">
+              <h5>by Bramhdev</h5>
             </footer>
           </div>
           <div className="w3-card w3-round-xxlarge">
             <div className="w3-container">
               <p>
-                A wish for you on your birthday, whatever you ask may you
-                receive, whatever you seek may you find, whatever you wish may
-                it be fulfilled on your birthday and always. Happy birthday!
+                Wish a many many more happy returns of the day dear Anshul.
+                Around 2 years back we met, but we feel you are with us
+                everytime, as Vaibhav will talk about you more often. I must say
+                you are very lucky to have my bro as your husband. He is also
+                very lucky to have you Sunshine, as you shine's his world. Stay
+                blessed eat more gain more weight, Wish a very happy birthday
+                ra...
               </p>
             </div>
             <footer className="w3-container w3-blue">
-              <h5>by Kavita</h5>
-            </footer>
-          </div>
-          <div className="w3-card w3-round-xxlarge">
-            <div className="w3-container">
-              <p>
-                A wish for you on your birthday, whatever you ask may you
-                receive, whatever you seek may you find, whatever you wish may
-                it be fulfilled on your birthday and always. Happy birthday!
-              </p>
-            </div>
-            <footer className="w3-container w3-blue">
-              <h5>by Amit</h5>
-            </footer>
-          </div>
-          <div className="w3-card w3-round-xxlarge">
-            <div className="w3-container">
-              <p>
-                A wish for you on your birthday, whatever you ask may you
-                receive, whatever you seek may you find, whatever you wish may
-                it be fulfilled on your birthday and always. Happy birthday!
-              </p>
-            </div>
-            <footer className="w3-container w3-blue">
-              <h5>by Vikas</h5>
-            </footer>
-          </div>
-          <div className="w3-card w3-round-xxlarge">
-            <div className="w3-container">
-              <p>
-                A wish for you on your birthday, whatever you ask may you
-                receive, whatever you seek may you find, whatever you wish may
-                it be fulfilled on your birthday and always. Happy birthday!
-              </p>
-            </div>
-            <footer className="w3-container w3-blue">
-              <h5>by Nitesh</h5>
-            </footer>
-          </div>
-          <div className="w3-card w3-round-xxlarge">
-            <div className="w3-container">
-              <p>
-                A wish for you on your birthday, whatever you ask may you
-                receive, whatever you seek may you find, whatever you wish may
-                it be fulfilled on your birthday and always. Happy birthday!
-              </p>
-            </div>
-            <footer className="w3-container w3-blue">
-              <h5>by Rakesh</h5>
+              <h5>by Anusha</h5>
             </footer>
           </div>
         </div>
